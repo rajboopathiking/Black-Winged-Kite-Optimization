@@ -18,7 +18,7 @@ optimizer.optimize()
 
 ##### Check Test.py in Respository
 ```
-hyperparameter_bounds = np.array([
+bounds = np.array([
     [1e-02, 1e-03],  # Learning rate
     [16, 128],       # Batch size
     [5, 50]          # Epochs
